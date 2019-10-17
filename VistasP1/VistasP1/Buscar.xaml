@@ -1,0 +1,24 @@
+﻿<Window x:Class="VistasP1.Buscar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VistasP1"
+        mc:Ignorable="d"
+        Title="Buscar" Height="497.468" Width="568.355">
+    <Grid Margin="0,0,14,42">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://marketplace.canva.com/MADerLC0r6E/1/thumbnail_large/canva-white-marble-surface-for-do-ceramic-counter-white-light-texture-tile-gray-background-marble-natural-for-interior-decoration-and-outside.-MADerLC0r6E.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lbActividad" Content="Actividad" HorizontalAlignment="Left" Margin="51,57,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Century Gothic"/>
+        <TextBox x:Name="txActividad" HorizontalAlignment="Left" Height="35" Margin="199,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="199" FontSize="20"/>
+        <Button x:Name="btBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="415,150,0,0" VerticalAlignment="Top" Width="96" FontFamily="Century Gothic" FontSize="18" Click="BtBuscar_Click"/>
+        <Button x:Name="btRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="415,365,0,0" VerticalAlignment="Top" Width="96" FontFamily="Century Gothic" FontSize="18" Click="BtRegresar_Click"/>
+        <TextBox x:Name="txUsuario" HorizontalAlignment="Left" Height="35" Margin="26,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="20"/>
+        <TextBox x:Name="txContraseña" HorizontalAlignment="Left" Height="35" Margin="121,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="20"/>
+        <DataGrid x:Name="dgBusqueda" HorizontalAlignment="Left" Height="261" Margin="51,130,0,0" VerticalAlignment="Top" Width="316"/>
+
+
+
+    </Grid>
+</Window>
